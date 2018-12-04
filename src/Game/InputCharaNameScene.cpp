@@ -29,8 +29,8 @@ namespace Scene
         if(SimpleGUI::ButtonAt(U"決定", Vec2(Window::Width()/2, 500), 200))
         {
             SaveData::setMainCharaName(m_textBox.getText());
+            m_Load -> isGameFirstFrag = true;
             this -> next_ = U"load";
-            m_load.isGameFirstFrag = true;
         }
     }
     

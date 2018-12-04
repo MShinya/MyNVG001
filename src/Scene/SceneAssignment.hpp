@@ -15,6 +15,7 @@
 #include "InputCharaNameScene.hpp"
 #include "SaveScene.hpp"
 #include "LoadScene.hpp"
+#include "Load.hpp"
 
 namespace Scene
 {
@@ -27,6 +28,8 @@ namespace Scene
     public:
         static KeyType Assign(Assoc& assoc)
         {
+            // Load commonLoad;
+            std::shared_ptr<Load> SPcommmonLoad(new Load);
             // ゲームが開始された時のシーン(タイトル画面)
             static String title(U"title");
             
@@ -35,6 +38,9 @@ namespace Scene
             assoc[U"inputName"] = UPAbs(new InputCharaNameScene);
             assoc[U"save"] = UPAbs(new SaveScene);
             assoc[U"load"] = UPAbs(new LoadScene);
+            
+            assoc[U"inputName"] -> m_Load = SPcommmonLoad;
+            assoc[U"load"] -> m_Load = SPcommmonLoad;
             
             return title;
         }

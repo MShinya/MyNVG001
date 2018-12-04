@@ -90,7 +90,6 @@
 		2CAAB0EA1EE663680000A06D /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libz.a; sourceTree = "<group>"; };
 		2CC7F9841F4592DA0071A239 /* langelscript.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = langelscript.a; sourceTree = "<group>"; };
 		2CC7F9871F45930A0071A239 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		D507EE1121A9A61900B5C1C2 /* singleton.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = singleton.hpp; sourceTree = "<group>"; };
 		D5A468B02189AF61008B6AB4 /* SceneManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SceneManager.hpp; sourceTree = "<group>"; };
 		D5A468B22189B43A008B6AB4 /* DefaultAbstractScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DefaultAbstractScene.cpp; sourceTree = "<group>"; };
 		D5A468B32189B43A008B6AB4 /* DefaultAbstractScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DefaultAbstractScene.hpp; sourceTree = "<group>"; };
@@ -188,7 +187,6 @@
 			isa = PBXGroup;
 			children = (
 				2C1778991CE0AA7C00BB8AD0 /* Main.cpp */,
-				D507EE1121A9A61900B5C1C2 /* singleton.hpp */,
 				D5A468BC218C1B33008B6AB4 /* Scene */,
 				D5A468BD218C1B60008B6AB4 /* TItle */,
 				D5A468BE218C1B6B008B6AB4 /* Game */,

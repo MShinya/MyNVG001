@@ -9,6 +9,7 @@
 #define DefaultAbstractScene_hpp
 
 #include <Siv3D.hpp>
+#include "Load.hpp"
 
 namespace Scene
 {
@@ -25,6 +26,10 @@ namespace Scene
         void SetNextScene(String);
         
         virtual ~DefaultAbstractScene(){};
+        
+        std::shared_ptr<Load> m_Load;
+        
+        // Load *m_Load;
     protected:
         String next_;
     };

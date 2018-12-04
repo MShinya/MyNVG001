@@ -6,3 +6,9 @@
 //
 
 #include "Load.hpp"
+
+Load::Load()
+:isGameFirstFrag(false)
+{
+    
+}

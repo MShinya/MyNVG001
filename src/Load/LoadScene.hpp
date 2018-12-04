@@ -16,9 +16,6 @@ namespace Scene
 {
     class LoadScene : public DefaultAbstractScene
     {
-    private:
-        Load m_load;
-        
     public:
         LoadScene();
         

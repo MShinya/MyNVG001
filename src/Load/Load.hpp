@@ -8,15 +8,13 @@
 #ifndef Load_hpp
 #define Load_hpp
 
-#include "singleton.hpp"
-
-class Load : public Singleton<Load>
+class Load
 {
 private:
-    friend class Singleton<Load>;
 
 public:
-    bool isGameFirstFrag = false;   //ゲームが「初めから」開始されたかどうか管理する
+    Load();
+    bool isGameFirstFrag;   //ゲームが「初めから」開始されたかどうか管理する
 };
 
 #endif /* Load_hpp */

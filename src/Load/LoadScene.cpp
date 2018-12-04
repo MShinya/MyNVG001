@@ -16,7 +16,8 @@ namespace Scene
     
     void LoadScene::Draw()
     {
-        
+        ClearPrint();
+        Print(m_Load -> isGameFirstFrag);
     }
     
     void LoadScene::Update()

@@ -5,8 +5,8 @@
 //  Created by 三浦真矢 on 2018/11/25.
 //
 
-#ifndef singleton_h
-#define singleton_h
+#ifndef singleton_hpp
+#define singleton_hpp
 
 #include <memory>
 template <class T>
@@ -37,4 +37,4 @@ private:
     Singleton& operator=(Singleton &&) = delete;
 };
 
-#endif /* singleton_h */
+#endif /* singleton_hpp */
