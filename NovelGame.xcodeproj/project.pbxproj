@@ -43,6 +43,9 @@
 		D5A468CE218C355B008B6AB4 /* SaveScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5A468CC218C355B008B6AB4 /* SaveScene.cpp */; };
 		D5A468D1218C38FF008B6AB4 /* LoadScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5A468CF218C38FF008B6AB4 /* LoadScene.cpp */; };
 		D5A468D5218CDAEC008B6AB4 /* Load.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5A468D3218CDAEC008B6AB4 /* Load.cpp */; };
+		D5A6340E21C4F73B00D03AEB /* SaveUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5A6340C21C4F73B00D03AEB /* SaveUnit.cpp */; };
+		D5A6341121C4FDF400D03AEB /* CreditScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5A6340F21C4FDF400D03AEB /* CreditScene.cpp */; };
+		D5A6341521C7794300D03AEB /* json11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D5A6341321C7794300D03AEB /* json11.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +115,12 @@
 		D5A468D0218C38FF008B6AB4 /* LoadScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LoadScene.hpp; sourceTree = "<group>"; };
 		D5A468D3218CDAEC008B6AB4 /* Load.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Load.cpp; sourceTree = "<group>"; };
 		D5A468D4218CDAEC008B6AB4 /* Load.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Load.hpp; sourceTree = "<group>"; };
+		D5A6340C21C4F73B00D03AEB /* SaveUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SaveUnit.cpp; sourceTree = "<group>"; };
+		D5A6340D21C4F73B00D03AEB /* SaveUnit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SaveUnit.hpp; sourceTree = "<group>"; };
+		D5A6340F21C4FDF400D03AEB /* CreditScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CreditScene.cpp; sourceTree = "<group>"; };
+		D5A6341021C4FDF400D03AEB /* CreditScene.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CreditScene.hpp; sourceTree = "<group>"; };
+		D5A6341321C7794300D03AEB /* json11.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = json11.cpp; sourceTree = "<group>"; };
+		D5A6341421C7794300D03AEB /* json11.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = json11.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +201,8 @@
 				D5A468BE218C1B6B008B6AB4 /* Game */,
 				D5A468CB218C329E008B6AB4 /* Save */,
 				D5A468D2218C3908008B6AB4 /* Load */,
+				D5A6341221C6444600D03AEB /* Credit */,
+				D5A6341621C779C800D03AEB /* json11 */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -358,6 +369,8 @@
 				D5A468C9218C3293008B6AB4 /* SaveData.hpp */,
 				D5A468CC218C355B008B6AB4 /* SaveScene.cpp */,
 				D5A468CD218C355B008B6AB4 /* SaveScene.hpp */,
+				D5A6340C21C4F73B00D03AEB /* SaveUnit.cpp */,
+				D5A6340D21C4F73B00D03AEB /* SaveUnit.hpp */,
 			);
 			path = Save;
 			sourceTree = "<group>";
@@ -371,6 +384,24 @@
 				D5A468D4218CDAEC008B6AB4 /* Load.hpp */,
 			);
 			path = Load;
+			sourceTree = "<group>";
+		};
+		D5A6341221C6444600D03AEB /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				D5A6340F21C4FDF400D03AEB /* CreditScene.cpp */,
+				D5A6341021C4FDF400D03AEB /* CreditScene.hpp */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		D5A6341621C779C800D03AEB /* json11 */ = {
+			isa = PBXGroup;
+			children = (
+				D5A6341321C7794300D03AEB /* json11.cpp */,
+				D5A6341421C7794300D03AEB /* json11.hpp */,
+			);
+			path = json11;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,8 +473,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A6340E21C4F73B00D03AEB /* SaveUnit.cpp in Sources */,
 				D5A468CA218C3293008B6AB4 /* SaveData.cpp in Sources */,
 				D5A468C4218C2008008B6AB4 /* Menu.cpp in Sources */,
+				D5A6341521C7794300D03AEB /* json11.cpp in Sources */,
+				D5A6341121C4FDF400D03AEB /* CreditScene.cpp in Sources */,
 				D5A468D1218C38FF008B6AB4 /* LoadScene.cpp in Sources */,
 				D5A468B42189B43A008B6AB4 /* DefaultAbstractScene.cpp in Sources */,
 				2C17789A1CE0AA7C00BB8AD0 /* Main.cpp in Sources */,

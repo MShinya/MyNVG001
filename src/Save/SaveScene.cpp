@@ -10,6 +10,7 @@
 namespace Scene
 {
     SaveScene::SaveScene()
+    :m_SaveUnits(60)
     {
         
     }

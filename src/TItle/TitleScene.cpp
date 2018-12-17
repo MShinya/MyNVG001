@@ -43,17 +43,6 @@ namespace Scene
         {
             menu.Update();
         }
-        
-        /*
-         if(MouseL.pressed() || KeyEnter.down())
-         {
-         this -> next_ = U"game";
-         }
-         else
-         {
-         this -> next_ = U"";
-         }
-         */
     }
     
     String TitleScene::GetScene()

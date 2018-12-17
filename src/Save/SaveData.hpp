@@ -9,11 +9,14 @@
 #define SaveData_hpp
 
 #include <Siv3D.hpp>
+#include <time.h>
 
 class SaveData
 {
 private:
     static String m_mainCharaName;
+    time_t m_SaveTime;
+    
     
 public:
     static String getMainCharaName();

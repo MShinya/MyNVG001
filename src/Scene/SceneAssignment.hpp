@@ -16,6 +16,7 @@
 #include "SaveScene.hpp"
 #include "LoadScene.hpp"
 #include "Load.hpp"
+#include "CreditScene.hpp"
 
 namespace Scene
 {
@@ -38,6 +39,7 @@ namespace Scene
             assoc[U"inputName"] = UPAbs(new InputCharaNameScene);
             assoc[U"save"] = UPAbs(new SaveScene);
             assoc[U"load"] = UPAbs(new LoadScene);
+            assoc[U"credit"] = UPAbs(new CreditScene);
             
             assoc[U"inputName"] -> m_Load = SPcommmonLoad;
             assoc[U"load"] -> m_Load = SPcommmonLoad;

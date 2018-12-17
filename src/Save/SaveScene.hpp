@@ -9,12 +9,15 @@
 #define SaveScene_hpp
 
 #include <Siv3D.hpp>
+#include <vector>
 #include "DefaultAbstractScene.hpp"
+#include "SaveUnit.hpp"
 
 namespace Scene {
     class SaveScene : public DefaultAbstractScene
     {
     private:
+        std::vector<SaveUnit> m_SaveUnits;
         
     public:
         SaveScene();
